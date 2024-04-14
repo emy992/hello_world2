@@ -3,3 +3,6 @@ library(here)
 write.csv(hello, 
           here("hello.csv"))
 hello<-paste("world","universe")
+print(hello)
+hello<-paste("good","night")
+print(hello)
